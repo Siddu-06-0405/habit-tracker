@@ -59,7 +59,7 @@ Track your daily habits, build consistency, and achieve your goals — one day a
 ### Run Frontend
 
 ```bash
-git clone https://github.com/yourusername/habit-tracker.git
+git clone https://github.com/Siddu-06-0405/habit-tracker.git
 cd habit-tracker/frontend
 npm install
 npx expo start
@@ -69,7 +69,7 @@ npx expo start
 ## Run Backend
 
 ```bash
-git clone https://github.com/yourusername/habit-tracker.git
+git clone https://github.com/Siddu-06-0405/habit-tracker.git
 cd habit-tracker/backend
 npm install
 create .env in backend folder

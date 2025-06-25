@@ -20,7 +20,7 @@ export default function Login() {
   };
 
   return (
-    <View className="gap-4">
+    <View className="flex-1 bg-blue-50 px-6 pt-20 gap-4">
       <Text className="text-2xl font-bold">Login</Text>
       {error && <Text className="text-red-500">{error}</Text>}
       <TextInput className="border p-2" placeholder="Email" onChangeText={(v) => setForm({ ...form, email: v })} />

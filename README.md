@@ -8,9 +8,9 @@ Track your daily habits, build consistency, and achieve your goals — one day a
 
 📲 Open the app on your phone using [Expo Go](https://expo.dev/go):
 
-👉 **[https://expo.dev/@csiddhardha/frontend](https://expo.dev/@csiddhardha/frontend)**  
-(Scan the QR code on that page using Expo Go)
-
+👉 **[https://expo.dev/@csiddhardha/frontend](https://expo.dev/preview/update?message=third%20publish&updateRuntimeVersion=1.0.0&createdAt=2025-06-25T13%3A46%3A54.684Z&slug=exp&projectId=ab0970e0-dbba-4e1a-af98-062726287124&group=0e9a76e0-4724-4534-8269-4bb97710febc)**  
+(Scan the QR code on that page using Expo Go or just scan below)
+![alt text](qr.png)
 ---
 
 ## 🧠 Features
@@ -20,7 +20,6 @@ Track your daily habits, build consistency, and achieve your goals — one day a
 - 🔁 Track completion for each habit daily
 - 🔥 View habit streaks and completion count
 - 📊 Intuitive dashboard with real-time stats
-- 🌙 Dark-mode-friendly design (optional future)
 
 ---
 
@@ -43,9 +42,9 @@ Track your daily habits, build consistency, and achieve your goals — one day a
 
 ## 📸 Screenshots
 
-| Home | Habits List | Add Habit |
+| Home | Habits List | Sign Up |
 |------|-------------|-----------|
-| ![Home](https://via.placeholder.com/200x400?text=Welcome+Page) | ![List](https://via.placeholder.com/200x400?text=Habits+List) | ![Create](https://via.placeholder.com/200x400?text=Create+Habit) |
+| ![alt text](homepage.jpg) | ![alt text](habit-tracking-page.jpg) | ![alt text](signup.jpg) |
 
 ---
 
@@ -64,3 +63,15 @@ git clone https://github.com/yourusername/habit-tracker.git
 cd habit-tracker/frontend
 npm install
 npx expo start
+
+```
+
+## Run Backend
+
+```bash
+git clone https://github.com/yourusername/habit-tracker.git
+cd habit-tracker/backend
+npm install
+create .env in backend folder
+add your MONGO_URI and JWT_SECRET variables in backend/.env
+node server.js

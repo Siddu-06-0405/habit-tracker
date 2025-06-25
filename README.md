@@ -65,13 +65,12 @@ npm install
 npx expo start
 
 ```
+- create .env in backend folder
+- add your MONGO_URI and JWT_SECRET variables in backend/.env
 
 ## Run Backend
 
 ```bash
-git clone https://github.com/Siddu-06-0405/habit-tracker.git
 cd habit-tracker/backend
 npm install
-create .env in backend folder
-add your MONGO_URI and JWT_SECRET variables in backend/.env
 node server.js

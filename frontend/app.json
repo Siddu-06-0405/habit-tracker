@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.csiddhardha.frontend"
     },
     "web": {
       "bundler": "metro",
@@ -38,6 +39,19 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ab0970e0-dbba-4e1a-af98-062726287124"
+      }
+    },
+    "owner": "csiddhardha",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ab0970e0-dbba-4e1a-af98-062726287124"
     }
   }
 }

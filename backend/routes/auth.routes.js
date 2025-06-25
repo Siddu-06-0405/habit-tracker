@@ -1,9 +1,11 @@
-const router = require('express').Router();
-const auth = require('../middleware/auth');
-const { createHabit, getHabits, trackHabit, getTracking } = require('../controllers/habit.controller');
-router.use(auth);
-router.post('/', createHabit);
-router.get('/', getHabits);
-router.post('/:id/track', trackHabit);
-router.get('/:id/tracking', getTracking);
+const express = require('express');
+const router = express.Router();
+const { signup, login } = require('../controllers/auth.controller');
+
+// POST /api/auth/signup
+router.post('/signup', signup);
+
+// POST /api/auth/login
+router.post('/login', login);
+
 module.exports = router;

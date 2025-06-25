@@ -7,7 +7,11 @@ const authRoutes = require('./routes/auth.routes');
 
 dotenv.config();
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: '*', // or restrict to specific origin
+  credentials: true
+}));
+
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
@@ -17,4 +21,4 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/habits', habitRoutes);
 app.use('/api/auth', authRoutes);
 
-app.listen(5000, () => console.log('Server running on port 5000'));
+app.listen(5001, () => console.log('Server running on port 5001'));
